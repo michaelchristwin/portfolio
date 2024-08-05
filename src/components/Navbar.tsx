@@ -4,7 +4,7 @@ import PFP from "../assets/ffebe056eb96e7fcdf064a0635ea1f4171126656.jpeg";
 function Navbar() {
   return (
     <header
-      className={`w-full fix top-0 flex items-center justify-between p-3 bg-gray-300 dark:bg-white dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-10`}
+      className={`w-full fixed top-0 flex items-center justify-between p-3 bg-gray-300 dark:bg-white dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-10`}
     >
       <img
         src={PFP}
